@@ -1,0 +1,42 @@
+td, th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+
+.input-group {
+  margin: 20px 0px;
+}
+
+@media (max-width: 769px) {
+  .pressure {
+    display: none;
+  }
+  .temp {
+    width:33%
+  }
+  .humidity {
+    width:33%
+  }
+  .gmap {
+    width:33%
+  }
+}
+
+@media (max-width: 520px) {
+  .humidity {
+    display: none;
+  }
+  .temp {
+    width:50%
+  }
+  .gmap {
+    width:50%
+  }
+}
+
+
+td:first-of-type, td:first-of-type > div {
+  height: 200px;
+  max-width: 100%;
+}
